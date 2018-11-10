@@ -13,7 +13,7 @@
      },
      "PORT": {
        "description": "设置监听端口，该地址是客户端需要连接的端口",
-       "value": ":66666"
+       "value": "6666"
      },
      "LEVEL": {
        "description": "日志输出层级，有：dbg0，dbg，log，info，warn，err，off（关闭输出）",

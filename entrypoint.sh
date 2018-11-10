@@ -4,4 +4,4 @@ wget -O goflyway.tar.gz https://github.com/coyove/goflyway/releases/download/$VE
 tar -zxf goflyway.tar.gz
 #cd /goflyway/goflyway_linux_amd64
 chmod +x goflyway 
- ./goflyway -k="$KEY"  -l="$PORT" -lv="$LEVEL"
+ ./goflyway -k="$KEY"  -l=":$PORT" -lv="$LEVEL"
