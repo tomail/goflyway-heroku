@@ -3,20 +3,24 @@
   "description": "deploy goflyway to Heroku.",
   "keywords": ["goflyway"],
   "env": {
-    "METHOD": {
-       "description": "输入加密算法，默认为chacha20。",
-       "value": "chacha20"
-     },
-     "PASSWORD": {
-       "description": "A password used to encrypt transfer.",
-       "value": "goflyway123456"
+    "VER": {
+       "description": "输入 goflyway 版本号",
+       "value": "2.0.0rc1"
+     }, 
+     "KEY": {
+       "description": "密码，服务端与客户端需保持一致",
+       "value": "30522b10-a8d2-11e8-978c-f0d5bf44df99"
      },
      "PORT": {
-       "description": "A transfer port",
-       "value": "233"
+       "description": "设置监听端口，该地址是客户端需要连接的端口",
+       "value": ":66666"
+     },
+     "LEVEL": {
+       "description": "日志输出层级，有：dbg0，dbg，log，info，warn，err，off（关闭输出）",
+       "value": "log"
      }
   },
-  "website": "https://github.com/giegloop/goflyway-heroku",
-  "repository": "https://github.com/giegloop/goflyway-heroku",
+  "website": "https://github.com/wizos/goflyway-heroku",
+  "repository": "https://github.com/wizos/goflyway-heroku",
   "stack": "container"
  }
