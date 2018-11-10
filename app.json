@@ -1,0 +1,22 @@
+{
+  "name": "goflyway-heroku",
+  "description": "deploy goflyway to Heroku.",
+  "keywords": ["goflyway"],
+  "env": {
+    "METHOD": {
+       "description": "输入加密算法，默认为chacha20。",
+       "value": "chacha20"
+     },
+     "PASSWORD": {
+       "description": "A password used to encrypt transfer.",
+       "value": "goflyway123456"
+     },
+     "PORT": {
+       "description": "A transfer port",
+       "value": "233"
+     }
+  },
+  "website": "https://github.com/giegloop/goflyway-heroku",
+  "repository": "https://github.com/giegloop/goflyway-heroku",
+  "stack": "container"
+ }
