@@ -9,7 +9,7 @@
      }, 
      "KEY": {
        "description": "密码，服务端与客户端需保持一致",
-       "value": "30522b10-a8d2-11e8-978c-f0d5bf44df99"
+       "value": "lao666"
      },
      "PORT": {
        "description": "设置监听端口，该地址是客户端需要连接的端口",
